@@ -97,7 +97,6 @@ gpg --export -a "your-key-id" > my-repo-key.asc
 Users will need to add this key to their system to use your repository:
 
 ```
-Copy code
 sudo apt-key add my-repo-key.asc
 ```
 
